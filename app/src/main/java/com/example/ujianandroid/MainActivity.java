@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     String nama_lengkap = isian_nama_depan.concat(" ").concat(isian_nama_belakang);
                     daftar_nama.clear();
-                    for(int i=isian_umur; i<isian_umur; i++)
+                    for(int i=0; i<isian_umur; i++)
                     {
                         daftar_nama.add(nama_lengkap);
                     }
